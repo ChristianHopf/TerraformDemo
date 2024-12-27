@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.23", features = ["derive", "env"] }
+proto = { version = "0.1.0", path = "../proto", features = ["ssr"] }
+server = { version = "0.1.0", path = "../server" }
+tokio = { version = "1.42.0", features = ["full"] }
+utoipa = { version = "5.3.0", features = ["axum_extras", "chrono"] }
