@@ -1,3 +1,7 @@
+# Cargo
+target/
+
+# Terraform
 .terraform/
 .terraform.lock.hcl
 *.tfstate
